@@ -12,4 +12,10 @@
 -> calcul des prix
 -> completer la bdd via les formulaires etc
 -> systeme photo
+-> 2 triggers 
+-> du javascript pour plus de points
+-> asservir les populations qui ne sont pas inscrits sur le site
+-> une ia de lavage de cerveau pour les gens inscrits
+-> dominer le monde
+-> 
 
