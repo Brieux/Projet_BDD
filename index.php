@@ -23,11 +23,11 @@
   </div>
   <div id="Menu">
     <ul>
-      <li><a href="oui.php">Oui</a></li>
-      <li><a href="oui.php">Oui</a></li>
-      <li><a href="oui.php">Oui</a></li>
-      <li><a href="oui.php">Oui</a></li>
-      <li><a href="oui.php">Oui</a></li>
+      <li><a href="propService.php">Proposer un service</a></li>
+      <li><a href="propBien.php">Proposer un bien</a></li>
+      <li><a href="service.php">Utiliser un service</a></li>
+      <li><a href="bien.php">Utiliser un bien</a></li>
+      <li><a href="aled.php">ALED</a></li>
     </ul>
   </div>
 
