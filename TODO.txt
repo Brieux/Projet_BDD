@@ -1,0 +1,15 @@
+-> structure page : 
+	- aled
+	- bien
+	- connexion
+	- inscription
+	- propBien
+	- propService
+	- service
+
+-> verifier le systeme de connexion (hachage decryptage)
+-> relié la bdd aux pages
+-> calcul des prix
+-> completer la bdd via les formulaires etc
+-> systeme photo
+
