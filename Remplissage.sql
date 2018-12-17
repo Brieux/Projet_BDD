@@ -13,3 +13,34 @@ DELETE FROM BIEN;
 DELETE FROM MEMBRES;
  
 /* Insertion des nouvelles valeurs */
+
+INSERT INTO MEMBRES VALUES ('jackson@gmail.com','sg2456q','Jackson','Ville','Jacksonville','15 rue des lilas',0547789541,'0','ACTIVE');
+INSERT INTO MEMBRES VALUES ('germain@gmail.com','fr78as4','Saint','Germain','Saint-Germain','36 rue du marechal Petain',0125478956,'0','ACTIVE');
+INSERT INTO MEMBRES VALUES ('pellier@gmail.com','98ae7sq','Mont','Pellier','Montpellier','01 bis allée mario gustavi',0457461238,'0','ACTIVE');
+
+INSERT INTO BIEN VALUES(111111,'Turbine', 5475);
+INSERT INTO BIEN VALUES(111112,'Soupape admission', 875);
+INSERT INTO BIEN VALUES(111113,'Stylo bic', 2);
+INSERT INTO BIEN VALUES(111114,'Grenouillere', 45);
+
+INSERT INTO SERVICES VALUES(11111111,'Jardinnage', '2019-01-12 08:00:00', '2019-01-12 17:30:00',30, 'Possibilité de s"occuper de votre jardin et de faire pousser de jolies plantes');
+INSERT INTO SERVICES VALUES(11111112,'Babysitting', '2019-02-01 17:00:00', '2019-02-01 23:30:00',15, 'Babysitting tout age');
+INSERT INTO SERVICES VALUES(11111113,'Programmation', '2019-03-05 14:00:00', '2020-03-05 14:00:00',120, 'Donne des cours de programmation');
+
+INSERT INTO JOUR VALUES('LUNDI');
+INSERT INTO JOUR VALUES('MARDI');
+INSERT INTO JOUR VALUES('MERCREDI');
+INSERT INTO JOUR VALUES('JEUDI');
+INSERT INTO JOUR VALUES('VENDREDI');
+INSERT INTO JOUR VALUES('SAMEDI');
+INSERT INTO JOUR VALUES('DIMANCHE');
+
+INSERT INTO CONSOMMATION VALUES ('jackson@gmail.com',111111,1111111111,'LUNDI');
+INSERT INTO CONSOMMATION VALUES ('germain@gmail.com',11111112,1111111112,'MARDI');
+INSERT INTO CONSOMMATION VALUES ('jackson@gmail.com',11111111,1111111113,'DIMANCHE');
+
+INSERT INTO PHOTO VALUES ('http://lienphoto.com/ude1s/',111111);
+INSERT INTO PHOTO VALUES ('http://lienphoto.com/65des/',111112);
+INSERT INTO PHOTO VALUES ('http://lienphoto.com/9784s/',111113);
+INSERT INTO PHOTO VALUES ('http://lienphoto.com/1xcfd/',111114);
+
