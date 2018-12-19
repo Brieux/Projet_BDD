@@ -1,4 +1,4 @@
-Membre(Email,mdp,nom,prenom,ville,adresse,telephone,administrateur,etat)
+Membres(Email,mdp,nom,prenom,ville,adresse,telephone,administrateur,etat)
 Bien(id,nom,prix,#createur,#user)
 Service(id,nom,prix,debut_plage_horaire,fin_plage_horaire,descriptif,#createur,#user)
 Notif(id,msg)
