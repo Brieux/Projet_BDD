@@ -1,3 +1,6 @@
 trigger tLog: 
 il insert dans une table log toute les modification  de la table membres,
 elle permet d'avoir un journal sur la table membres pour aider les administrateur.
+
+trigger tBien:
+Il empeche la supression d'un bien si il est dans l'etat "PRIS"
